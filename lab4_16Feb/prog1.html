@@ -1,0 +1,42 @@
+<!-- 1. Create an external stylesheet containing three classes, blue: which colors blue, big1: which increses the font to 5px,
+
+cent: which aligns to center. Import the css in a html file and use all the three classes. In the same Html file, Create an internal
+stylesheet containing three classes, red: which colors red, big2: which increses the font to 10px,
+
+rit: which aligns to right, and use all the three classes. In the same Html file, Use inline style sheet containing three classes,
+green: which colors green, big3: which increses the font to 20px, lef: which aligns to left -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>externalCSS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p class="blue">This is blue</p>
+        <p class="big1">This is big1</p>
+        <p class="cent">This is center</p>
+        <hr noshade="">
+        <style type="text/css">
+            .red{
+                color:red;
+            }
+            .big2{
+                font-size: 30px;
+            }
+            .rit{
+                text-align: right;
+            }
+
+        </style>
+        <p class="red">This is red</p>
+        <p class="big2">This is big2</p>
+        <p class="rit">This is right</p>
+
+        <hr noshade="">
+        <p style="color:green;">This is green</p>
+        <p style="font-size:40px;">This is big3</p>
+        <p style="text-align: left;">This is left</p>
+    </body>
+
+</html>

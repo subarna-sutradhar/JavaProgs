@@ -1,0 +1,17 @@
+.kit{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    font-style: oblique;
+}
+.tail{
+    font-size: 18px;
+    text-align: center;
+    color: gold;
+}
